@@ -1,0 +1,596 @@
+                                            * {
+                                                margin: 0;
+                                                padding: 0;
+                                            }
+                                            
+                                            html {
+                                                scroll-behavior: smooth;
+                                            }
+                                            
+                                            body {
+                                                font-family: sans-serif;
+                                                /* background: black; */
+                                                color: black;
+                                                /* line-height: 1.6; */
+                                                /* height: 100vh; */
+                                            }
+                                            
+                                            section {
+                                                /* display: flex; */
+                                                /* flex-direction: column; */
+                                                /* align-items: center; */
+                                                /* justify-content: center; */
+                                                /* text-align: center; */
+                                                width: 100%;
+                                                /* height: 100vh; */
+                                            }
+                                            
+                                            #home {
+                                                background-image: url('./img/ab2.png');
+                                                /* margin-top: 60px; */
+                                                height: 100vh;
+                                                width: 108%;
+                                                /* height: auto; */
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                background-position: center center;
+                                                background-attachment: fixed;
+                                            }
+                                            
+                                            #home .p {
+                                                color: rgb(247, 243, 243);
+                                                font-size: 1.4rem;
+                                                font-family: 'Courgette', cursive;
+                                                width: 700px;
+                                                padding: 29px 0px 4px;
+                                            }
+                                            
+                                            #home .head {
+                                                width: 300px;
+                                                padding-top: 100px;
+                                            }
+                                            
+                                            #home .logo {
+                                                width: 510px;
+                                                height: 106px;
+                                                margin-top: 25px;
+                                            }
+                                            
+                                            #home .nbtn {
+                                                /* background: rgb(199, 21, 21); */
+                                                margin-top: 20px;
+                                            }
+                                            
+                                            #home .nbtn ul {
+                                                position: absolute;
+                                                display: flex;
+                                            }
+                                            
+                                            #home .nbtn ul li {
+                                                list-style: none;
+                                                margin: 0 5px;
+                                            }
+                                            
+                                            #home .nbtn ul li a .fa {
+                                                font-size: 40px;
+                                                color: rgb(43, 182, 136);
+                                                line-height: 80px;
+                                                transition: 0.5s;
+                                                padding-right: 14px;
+                                            }
+                                            
+                                            #home .nbtn ul li a span {
+                                                font-family: 'Playfair Display', serif;
+                                                font-size: 20px;
+                                                padding: 0;
+                                                margin: 0;
+                                                position: absolute;
+                                                top: 30px;
+                                                color: rgb(250, 241, 241);
+                                                letter-spacing: 4px;
+                                                transition: 0.5s;
+                                            }
+                                            
+                                            #home .nbtn ul li a {
+                                                text-decoration: none;
+                                                display: absolute;
+                                                display: block;
+                                                width: 210px;
+                                                height: 80px;
+                                                text-align: left;
+                                                padding-left: 20px;
+                                                transform: rotate(-30deg) skew(25deg) translate(0, 0);
+                                                transition: 0.5s;
+                                                box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+                                            }
+                                            
+                                            #home .nbtn ul li a:before {
+                                                content: '';
+                                                position: absolute;
+                                                top: 10px;
+                                                left: -20px;
+                                                height: 100%;
+                                                width: 20px;
+                                                background: #b1b1b1;
+                                                transform: 0.5s;
+                                                transform: rotate(0deg) skewY(-45deg);
+                                            }
+                                            
+                                            #home .nbtn ul li a:after {
+                                                content: '';
+                                                position: absolute;
+                                                bottom: -20px;
+                                                left: -10px;
+                                                height: 20px;
+                                                width: 100%;
+                                                background: #b1b1b1;
+                                                transform: 0.5s;
+                                                transform: rotate(0deg) skew(-45deg);
+                                            }
+                                            
+                                            #home .nbtn ul li a:hover {
+                                                transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+                                                box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+                                            }
+                                            
+                                            #home .nbtn ul li:hover .fa {
+                                                color: rgba(208, 233, 233, 0.986);
+                                            }
+                                            
+                                            #home .nbtn ul li:hover span {
+                                                color: rgba(8, 255, 255, 0.986);
+                                            }
+                                            
+                                            #about {
+                                                /* margin: 70px 0 70px 0; */
+                                                /* color: white; */
+                                            }
+                                            
+                                            .about {
+                                                display: flex;
+                                                flex-direction: row;
+                                                margin: auto;
+                                                min-height: 80vh;
+                                                align-items: center;
+                                            }
+                                            
+                                            .introduction {
+                                                flex: 1;
+                                            }
+                                            
+                                            .about .intro-text p {
+                                                font-size: 24px;
+                                                font-family: 'Playfair Display', serif;
+                                            }
+                                            
+                                            .cover img {
+                                                height: 40vh;
+                                                filter: drop-shadow( 0px 10px 3px rgb(17, 15, 15));
+                                                transition: 0.5s ease-in-out;
+                                            }
+                                            
+                                            .DetailService {
+                                                display: flex;
+                                                flex-direction: row;
+                                            }
+                                            
+                                            .DetailService img {
+                                                height: 70vh;
+                                            }
+                                            
+                                            .serviceStart {
+                                                background-image: url('./img/s3.png');
+                                                background-position: center center;
+                                                background-size: cover;
+                                                background-attachment: fixed;
+                                                padding-top: 20px;
+                                            }
+                                            
+                                            #service .row h1 {
+                                                color: #999;
+                                                font-size: 30px;
+                                                font-family: 'Merriweather', serif;
+                                            }
+                                            
+                                            #service h3,
+                                            h2 {
+                                                text-transform: uppercase;
+                                                font-family: 'Playfair Display', serif;
+                                                font-size: 32px;
+                                            }
+                                            
+                                            #service .detail .intro p {
+                                                font-family: 'Playfair Display', serif;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #service .row p {
+                                                font-family: 'Playfair Display', serif;
+                                                font-size: 20px;
+                                            }
+                                            
+                                            #service ul li {
+                                                font-family: 'Playfair Display', serif;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            .flip-card {
+                                                background-color: transparent;
+                                                width: 100px;
+                                                height: 200px;
+                                                perspective: 1000px;
+                                            }
+                                            
+                                            .flip-card-inner {
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                text-align: center;
+                                                transition: transform 0.6s;
+                                                transform-style: preserve-3d;
+                                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                                            }
+                                            
+                                            .flip-card:hover .flip-card-inner {
+                                                transform: rotateY(180deg);
+                                            }
+                                            
+                                            .flip-card button {
+                                                background: rgb(43, 182, 136);
+                                                border: 0;
+                                                padding: 10px 30px;
+                                                color: #fff;
+                                                transition: 0.4s;
+                                                cursor: pointer;
+                                            }
+                                            
+                                            .flip-card-front,
+                                            .flip-card-back {
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 100%;
+                                                -webkit-backface-visibility: hidden;
+                                                backface-visibility: hidden;
+                                            }
+                                            
+                                            .flip-card-front {
+                                                background-color: transparent;
+                                                color: rgb(10, 8, 8);
+                                                justify-content: center;
+                                                /* box-shadow: 0 0 35px 25px red; */
+                                            }
+                                            
+                                            .flip-card-front i {
+                                                font-size: 80px;
+                                                /* margin-bottom: 10px; */
+                                                color: rgb(43, 182, 136);
+                                            }
+                                            
+                                            .flip-card-back {
+                                                background-color: transparent;
+                                                color: white;
+                                                transform: rotateY(180deg);
+                                            }
+                                            
+                                            .readMore {
+                                                background: rgb(43, 182, 136);
+                                                border: 0;
+                                                padding: 10px 30px;
+                                                color: #fff;
+                                                transition: 0.4s;
+                                                cursor: pointer;
+                                                font-family: 'Merriweather', serif;
+                                            }
+                                            
+                                            .readMore:hover {
+                                                font-size: 20px;
+                                                transition: 0.4s ease;
+                                            }
+                                            
+                                            .contact:hover {
+                                                font-size: 20px;
+                                                transition: 0.4s ease;
+                                            }
+                                            
+                                            #contact {
+                                                /* padding: 60px 0; */
+                                                background: url('./img/s.png');
+                                                background-attachment: fixed;
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                padding-bottom: 20px;
+                                            }
+                                            
+                                            #contact .contact-info {
+                                                margin-bottom: 20px;
+                                                text-align: center;
+                                            }
+                                            
+                                            #contact .contact-info i {
+                                                font-size: 48px;
+                                                display: inline-block;
+                                                margin-bottom: 10px;
+                                                color: rgb(43, 182, 136);
+                                            }
+                                            
+                                            #contact .contact-info address,
+                                            #contact p {
+                                                margin-bottom: 0;
+                                                color: #999;
+                                            }
+                                            
+                                            #contact .contact-info h3 {
+                                                font-size: 24px;
+                                                margin-bottom: 15px;
+                                                font-weight: bold;
+                                                text-transform: uppercase;
+                                                color: rgb(12, 11, 11);
+                                            }
+                                            
+                                            #contact h1 {
+                                                text-transform: uppercase;
+                                                color: #999;
+                                            }
+                                            
+                                            #contact .contact-info a {
+                                                color: #999;
+                                            }
+                                            
+                                            #contact .contact-info a:hover {
+                                                color: rgb(43, 182, 136);
+                                            }
+                                            
+                                            #contact address:hover {
+                                                color: rgb(43, 182, 136);
+                                            }
+                                            
+                                            #contact .contact-address,
+                                            #contact .contact-phone,
+                                            #contact .contact-email {
+                                                margin-bottom: 20px;
+                                            }
+                                            
+                                            #contact .form button {
+                                                background: rgb(43, 182, 136);
+                                                border: 0;
+                                                padding: 10px 30px;
+                                                color: #fff;
+                                                transition: 0.4s;
+                                                cursor: pointer;
+                                            }
+                                            
+                                            .display-4 {
+                                                text-transform: uppercase;
+                                                color: #999;
+                                                font-family: 'Merriweather', serif;
+                                                position: relative;
+                                                display: inline-block;
+                                                -webkit-animation: glow 2s ease-in-out infinite alternate;
+                                                -moz-animation: glow 2s ease-in-out infinite alternate;
+                                                animation: glow 2s ease-in-out infinite alternate;
+                                            }
+                                            
+                                            @-webkit-keyframes glow {
+                                                from {
+                                                    color: #fff;
+                                                    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+                                                }
+                                                to {
+                                                    color: gray;
+                                                    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+                                                }
+                                            }
+                                            
+                                            .display-4::after {
+                                                content: '';
+                                                height: 5px;
+                                                width: 100%;
+                                                background: rgb(43, 182, 136);
+                                                position: absolute;
+                                                left: 0;
+                                                bottom: 0;
+                                            }
+                                            
+                                            .display-5 {
+                                                text-transform: uppercase;
+                                                color: rgb(10, 8, 8);
+                                                font-family: 'Merriweather', serif;
+                                            }
+                                            
+                                            #footer {
+                                                width: 100%;
+                                                background: black;
+                                                color: white;
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                background-position: center center;
+                                                background-attachment: fixed;
+                                                display: block;
+                                            }
+                                            
+                                            #footer .footer-info p {
+                                                font-family: 'Playfair Display', serif;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #footer .row h4 {
+                                                text-transform: uppercase;
+                                                color: #999;
+                                                font-family: 'Merriweather', serif;
+                                            }
+                                            
+                                            #footer .footer-links ul {
+                                                list-style: none;
+                                                padding: 0;
+                                                margin: 0;
+                                            }
+                                            
+                                            #footer .footer-links ul li a {
+                                                text-decoration: none;
+                                                color: white;
+                                            }
+                                            
+                                            #footer .footer-links ul li i {
+                                                padding-right: 8px;
+                                                color: #ddd;
+                                            }
+                                            
+                                            #footer .footer-contact p {
+                                                font-family: 'Playfair Display', serif
+                                            }
+                                            
+                                            #footer .footer-links ul a:hover {
+                                                color: rgb(43, 182, 136);
+                                            }
+                                            
+                                            #footer .social-links a {
+                                                font-size: 18px;
+                                                font-family: 'Playfair Display', serif;
+                                                display: inline-block;
+                                                background: #333;
+                                                color: #eee;
+                                                line-height: 1;
+                                                padding: 8px 0;
+                                                margin-right: 4px;
+                                                border-radius: 50%;
+                                                text-align: center;
+                                                width: 36px;
+                                                height: 36px;
+                                                transition: 0.3s;
+                                            }
+                                            
+                                            #footer .social-links a:hover {
+                                                background: rgb(43, 182, 136);
+                                                color: #fff;
+                                            }
+                                            
+                                            #footer .copyright {
+                                                text-align: center;
+                                                padding-top: 30px;
+                                            }
+                                            
+                                            .android-btn {
+                                                width: 240px;
+                                                padding: 13px 17px 13px 0px;
+                                                color: #999;
+                                            }
+                                            
+                                            .android-btn:hover {
+                                                background-color: #272727;
+                                            }
+                                            
+                                            .android-btn strong {
+                                                font-size: 25px;
+                                                text-shadow: none;
+                                                color: #fff;
+                                                line-height: 24px;
+                                            }
+                                            
+                                            #space {
+                                                background-image: url('./img/s3.png');
+                                                background-position: center center;
+                                                background-size: cover;
+                                                background-attachment: fixed;
+                                                padding-top: 20px;
+                                                margin: 40px 0 0px 0px;
+                                                padding-bottom: 30px;
+                                            }
+                                            
+                                            #home .top {
+                                                display: none;
+                                                position: fixed;
+                                                width: 50px;
+                                                height: 50px;
+                                                background-color: rgb(43, 182, 136);
+                                                bottom: 40px;
+                                                right: 50px;
+                                                text-decoration: none;
+                                                text-align: center;
+                                                line-height: 50px;
+                                                color: white;
+                                                font-size: 20px;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            #home .top:hover,
+                                            #home .top:focus {
+                                                font-size: 40px;
+                                                transition: 0.9s ease;
+                                            }
+                                            
+                                            .bg {
+                                                background-color: transparent;
+                                                transition: 0.5s ease-in;
+                                            }
+                                            /* .color {
+                                                background-color: rgb(10, 8, 8);
+                                                transition: 0.9s ease;
+                                            } */
+                                            
+                                            .color1 {
+                                                background-color: rgb(8, 7, 7);
+                                                transition: 0.5s ease-in;
+                                            }
+                                            
+                                            .navbar-dark .navbar-nav .nav-link {
+                                                color: rgba(255, 255, 255, .5);
+                                                font-size: 28px;
+                                                font-family: 'Playfair Display', serif;
+                                            }
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											 .icons {
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          position: fixed;
+          z-index: 00;
+      }
+      
+      .icons ul {
+          padding: initial;
+      }
+      
+      .icons ul li {
+          height: 40px;
+          width: 40px;
+          list-style: none;
+          padding-left: 12px;
+          padding-top: 6px;
+          margin-top: 5px;
+          margin-left: 10px;
+          color: #fff;
+      }
+      
+      .facebook {
+          background-color: #3b5998;
+      }
+      
+      .youtube {
+          background-color: #ff0000;
+      }
+      
+      .linkedin {
+          background-color: #007bb5;
+      }
+      
+      .twitter {
+          background-color: #55acee;
+      }
+      
+      .instagram {
+          background-color: #ff4800;
+      }
+      
+      .icons ul li:hover {
+          padding-left: 30px;
+          width: 80px;
+          transition: 0.9s ease;
+      }

@@ -1,0 +1,226 @@
+@media only screen and (max-width: 360px) {
+    body {
+        width: 200%;
+    }
+    #home {
+        height: 100vh;
+        width: 16%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        min-height: 80vh;
+        align-items: center;
+    }
+    .introduction {
+        flex: 1;
+    }
+    .about .intro-text p {
+        font-size: 28px;
+        font-family: 'Playfair Display', serif;
+    }
+    .cover img {
+        height: 40vh;
+        filter: drop-shadow( 0px 10px 3px rgb(17, 15, 15));
+        transition: 0.5s ease-in-out;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 215px;
+        height: 287px;
+        perspective: 1000px;
+    }
+    .serviceStart {
+        width: 107%;
+    }
+    #space {
+        width: 107%;
+    }
+    #contact {
+        width: 107%;
+    }
+    #footer {
+        width: 107%;
+    }
+    #contact p {
+        font-size: 33px;
+        font-family: 'Playfair Display', serif;
+    }
+    #contact .contact-info h3 {
+        font-size: 58px;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 26px;
+    }
+    #contact .contact-info address,
+    #contact p {
+        font-size: 29px;
+        font-family: 'Playfair Display', serif;
+    }
+    #contact .contact-info a {
+        color: #999;
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+    }
+    #contact .contact-info i {
+        font-size: 60px;
+        display: inline-block;
+        margin-bottom: 10px;
+        color: rgb(43, 182, 136);
+    }
+    #footer .footer-info p {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+    }
+    #footer .social-links a {
+        font-size: 18px;
+    }
+    #footer .footer-links ul li a {
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        color: #ddd;
+    }
+    #footer .row h4 {
+        font-size: 35px;
+    }
+    #footer .footer-contact p {
+        font-size: 30px;
+    }
+    #footer .social-links a {
+        font-size: 33px;
+        width: 62px;
+        height: 50px;
+    }
+    #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 22px;
+    }
+    .navbar ul {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 200%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        min-height: 80vh;
+        align-items: center;
+    }
+    #home {
+        height: 100vh;
+        width: 107%;
+    }
+    .serviceStart {
+        width: 107%;
+    }
+    #space {
+        width: 107%;
+    }
+    #contact {
+        width: 107%;
+    }
+    #footer {
+        width: 107%;
+    }
+    .introduction {
+        flex: 1;
+    }
+    .about .intro-text p {
+        font-size: 28px;
+        font-family: 'Playfair Display', serif;
+    }
+    .cover img {
+        height: 40vh;
+        filter: drop-shadow( 0px 10px 3px rgb(17, 15, 15));
+        transition: 0.5s ease-in-out;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 215px;
+        height: 287px;
+        perspective: 1000px;
+    }
+    #contact p {
+        font-size: 33px;
+        font-family: 'Playfair Display', serif;
+    }
+    #contact .contact-info h3 {
+        font-size: 58px;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 26px;
+    }
+    #contact .contact-info address,
+    #contact p {
+        font-size: 29px;
+        font-family: 'Playfair Display', serif;
+    }
+    #contact .contact-info a {
+        color: #999;
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+    }
+    #contact .contact-info i {
+        font-size: 60px;
+        display: inline-block;
+        margin-bottom: 10px;
+        color: rgb(43, 182, 136);
+    }
+    #footer .footer-info p {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+    }
+    #footer .social-links a {
+        font-size: 18px;
+    }
+    #footer .footer-links ul li a {
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        color: #ddd;
+    }
+    #footer .row h4 {
+        font-size: 35px;
+    }
+    #footer .footer-contact p {
+        font-size: 30px;
+    }
+    #footer .social-links a {
+        font-size: 33px;
+        width: 62px;
+        height: 50px;
+    }
+    #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 22px;
+    }
+    .navbar ul {
+        background-color: black;
+    }
+    .color1 {
+        background-color: rgb(8, 7, 7);
+        transition: 0.5s ease;
+      
+        margin: auto;
+    }
+    .bg {
+        transition: 0.5s ease;
+       
+        margin: auto;
+    }
+    .icons {
+        top: 90%;
+        right: 0;
+        transform: translateY(-50%);
+        position: fixed;
+        z-index: 100;
+    }
+    .icons ul {
+        display: flex;
+    }
+}
